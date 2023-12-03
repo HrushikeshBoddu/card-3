@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.card-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    color: white;
+}
+
+.card_1{
+    background-color: #023e8a;
+}
+
+.card_2{
+    background-color: #588157;
+}
+.card_3{
+    background-color: #1e96fc;
+}
+.card_4{
+    background-color: #ffd400;
+}
+.card-body{
+    height: 100%;
+}
+
+span{
+    color: gray;
+}
